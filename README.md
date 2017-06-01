@@ -14,6 +14,7 @@ Create a production ready Medium.com clone called "Conduit" powered by my choice
 The project's directory structure is based off of the one created by the [express-generator](https://expressjs.com/en/starter/generator.html).
 
 ## Structure
+```
 .
 ├── config/
 │   └── index.js
@@ -26,6 +27,7 @@ The project's directory structure is based off of the one created by the [expres
 ├── app.js
 ├── package.json
 └── .gitignore
+```
 
 * The `config` folder will be used for storing configuration settings for our application. For our project, we'll be storing our environment variables and configuration for passport.js in this folder.
 * The `models` folder will be used for storing our Mongoose models. These models will contain the schema for our data and will be the entry point for how our data gets in and out of MongoDB.
